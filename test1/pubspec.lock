@@ -75,6 +75,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  grouped_list:
+    dependency: "direct main"
+    description:
+      name: grouped_list
+      sha256: fef106470186081c32636aa055492eee7fc7fe8bf0921a48d31ded24821af19f
+      url: "https://pub.dev"
+    source: hosted
+    version: "5.1.2"
   leak_tracker:
     dependency: transitive
     description:
@@ -131,6 +139,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.11.0"
+  nested:
+    dependency: transitive
+    description:
+      name: nested
+      sha256: "03bac4c528c64c95c722ec99280375a6f2fc708eec17c7b3f07253b626cd2a20"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.0"
   path:
     dependency: transitive
     description:
@@ -139,6 +155,22 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.9.0"
+  provider:
+    dependency: "direct main"
+    description:
+      name: provider
+      sha256: c8a055ee5ce3fd98d6fc872478b03823ffdb448699c6ebdbbc71d59b596fd48c
+      url: "https://pub.dev"
+    source: hosted
+    version: "6.1.2"
+  scrollable_positioned_list:
+    dependency: transitive
+    description:
+      name: scrollable_positioned_list
+      sha256: "1b54d5f1329a1e263269abc9e2543d90806131aa14fe7c6062a8054d57249287"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.3.8"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -160,6 +192,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.11.1"
+  sticky_grouped_list:
+    dependency: "direct main"
+    description:
+      name: sticky_grouped_list
+      sha256: "40398cb90321f07cbdbdd3049c27a5f048bd75a13abb19453b07a956f53a0eda"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.1.0"
   stream_channel:
     dependency: transitive
     description:
@@ -210,3 +250,4 @@ packages:
     version: "13.0.0"
 sdks:
   dart: ">=3.3.1 <4.0.0"
+  flutter: ">=2.12.0"
