@@ -32,7 +32,10 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        backgroundColor: Colors.purple,
+        title: Text("ToDo 리스트"),
+      ),
       body: toDoList.isEmpty
           ? Center(
               child: Text("To Do List를 작성해주세요"),

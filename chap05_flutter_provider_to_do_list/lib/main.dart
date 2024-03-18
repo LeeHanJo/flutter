@@ -47,6 +47,7 @@ class HomePage extends StatelessWidget {
 
         return Scaffold(
           appBar: AppBar(
+            backgroundColor: Colors.greenAccent,
             title: Text("ToDo 리스트"),
           ),
           body: toDoList.isEmpty
@@ -119,6 +120,7 @@ class _CreatePageState extends State<CreatePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.greenAccent,
         title: Text("ToDo리스트 작성"),
         // 뒤로가기 버튼
         leading: IconButton(
