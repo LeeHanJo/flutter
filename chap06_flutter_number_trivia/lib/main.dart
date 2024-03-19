@@ -27,7 +27,7 @@ class HomePage extends StatefulWidget {
 
 //상태 클래스
 class _HomePageState extends State<HomePage> {
-  String quiz = '퀴즈';
+  String quiz = '';
 
   /*
   * initState()
